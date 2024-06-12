@@ -1,5 +1,5 @@
 const form = document.querySelector("#myForm") as HTMLFormElement;
-const cards = document.querySelector("#cards");
+const cards = document.querySelector("#cards") as HTMLDivElement;
 const noUserMessage = document.querySelector(".noUser") as HTMLElement;
 
 interface userObj {
